@@ -27,7 +27,7 @@ export default function MyCard(props) {
   return (
 
     <Grid item lg={4} md={4} xs={12} >
-      <Card className={classes.root}>
+      <Card className={classes.root} >
       
       <CardActionArea>
         <CardMedia
@@ -45,7 +45,7 @@ export default function MyCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button onClick={props.clickFun} size="small" color="primary">
           Learn More
         </Button>
       </CardActions>

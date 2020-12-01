@@ -12,7 +12,10 @@ async function fetchMovies(name,year) {
     } catch (error) {
       return [{ Title: "error" }];
     }
-  }
+}
+
+
+
 
   
-export default fetchMovies
+export default  fetchMovies 
